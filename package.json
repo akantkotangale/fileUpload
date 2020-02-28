@@ -9,6 +9,10 @@
   },
   "author": "\"Akant kotangale\"",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akantkotangale/fileUpload"
+  },
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
