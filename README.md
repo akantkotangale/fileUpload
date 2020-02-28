@@ -1,4 +1,4 @@
-### File Uploader Component
+# File Uploader Component
 
 Project for File Uploader Component in react
 
@@ -50,8 +50,9 @@ Then just renders it
 ### Example
 
 ```
-import FileUploader from "file-uploader-react-basics";
+import "file-uploader-react-basics/assets/bootstrap.min.css";
 import "file-uploader-react-basics/src/app.css";
+import FileUploader from "file-uploader-react-basics";
 
 function App() {
 const onSelectFile = e => {
