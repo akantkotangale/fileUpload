@@ -26,7 +26,7 @@ Then import the stylesheet for the component.
 
 ```
 import "file-uploader-react-basics/assets/bootstrap.min.css"; // only if bootstrap CDN is not imported in public/index.html
-import "file-uploader-react-basics/assets/app.css";
+import "file-uploader-react-basics/src/app.css";
 import FileUploader from "file-uploader-react-basics";
 ```
 
