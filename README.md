@@ -1,8 +1,6 @@
-# fileUploadTest
-
-Testing Git Project for File Uploader Component in react
-
 ### File Uploader Component
+
+Project for File Uploader Component in react
 
 ### Installation
 
