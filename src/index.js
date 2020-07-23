@@ -77,7 +77,6 @@ export default class FileUploader extends Component {
     return (
       <div className="form-group f-part-row-cont">
         <div className="d-flex flex-column">
-          >
           <div className="f-cont-wrap">
             <input
               className="inputfile inputfile-1"
