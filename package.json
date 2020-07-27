@@ -1,6 +1,6 @@
 {
   "name": "file-uploader-react-basics",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "\"My first npm module for file uploader using html5 input type as file\"",
   "main": "index.js",
   "scripts": {
