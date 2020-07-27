@@ -113,7 +113,7 @@ function (_Component) {
           error = _this$state.error,
           errorMgs = _this$state.errorMgs,
           fileName = _this$state.fileName;
-      console.log("file props", this.props);
+      var name = this.props.name;
       return _react["default"].createElement("div", {
         className: "form-group f-part-row-cont"
       }, _react["default"].createElement("div", {
@@ -125,13 +125,12 @@ function (_Component) {
         style: {
           display: "none"
         },
-        type: "file" // id="file"
-        ,
-        id: this.props.name,
+        type: "file",
+        id: name,
         accept: this.fileType,
         onChange: this.onChangeFile
       }), _react["default"].createElement("label", {
-        htmlFor: this.props.name,
+        htmlFor: name,
         className: "btn btn-outline-primary m-0"
       }, "Browse"), " ", _react["default"].createElement("label", {
         className: "form-control file-name"
