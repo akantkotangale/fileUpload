@@ -74,6 +74,7 @@ export default class FileUploader extends Component {
 
   render() {
     const { error, errorMgs, fileName } = this.state;
+    const {name} = this.props;
     return (
       <div className="form-group f-part-row-cont">
         <div className="d-flex flex-column">
@@ -82,11 +83,11 @@ export default class FileUploader extends Component {
               className="inputfile inputfile-1"
               style={{ display: "none" }}
               type="file"
-              id="file"
+              id={name}
               accept={this.fileType}
               onChange={this.onChangeFile}
             />
-            <label htmlFor="file" className="btn btn-outline-primary m-0">
+            <label htmlFor={name} className="btn btn-outline-primary m-0">
               Browse
             </label>{" "}
             <label className="form-control file-name">
